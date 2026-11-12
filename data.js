@@ -16,6 +16,7 @@ const STAFF = [
 
 // Changelogs (nieuwste bovenaan)
 const CHANGELOGS = [
+  {datum:"12-11-2026", tekst:"Biome The Sift geüpdate"},
   {datum:"11-11-2026", tekst:"Nieuwe Biome: The Sift"},
   {datum:"4-11-2026",  tekst:"Nieuwe en leukere dieren."},
   {datum:"3-11-2026",  tekst:"Objecten, mensen en dieren oppakken."},
