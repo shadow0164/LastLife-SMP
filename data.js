@@ -5,7 +5,7 @@ const DEELNEMERS = ["Shadow","iicookie","Sybren","Peertje","MR kitsune9","G_kipp
 
 // Dead: plaatje = images/1_dead.png, 2_dead.png, ...
 // Zet hier namen tussen, bijv: ["Shadow","Nikki"]
-const DEAD = ["Thijs","g_kippie13"];
+const DEAD = ["Thijs","g_kippie13","peertje"];
 
 // Staff: plaatje = images/1_staff.png, 2_staff.png, ...
 const STAFF = [
