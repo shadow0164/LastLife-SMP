@@ -9,9 +9,9 @@ const DEAD = ["Thijs","g_kippie13","Peertje"];
 
 // Staff: plaatje = images/1_staff.png, 2_staff.png, ...
 const STAFF = [
-  {naam:"Staff 1", rang:"Owner"},
-  {naam:"Staff 2", rang:"Admin"},
-  {naam:"Staff 3", rang:"Moderator"}
+  {naam:"Shadow.0164", rang:"Owner"},
+  {naam:"iicookie", rang:"Owner"},
+  {naam:"Sybren", rang:"Moderator"}
 ];
 
 // Changelogs (nieuwste bovenaan)
