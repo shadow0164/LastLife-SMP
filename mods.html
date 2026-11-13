@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mods – LastLife HardCore SMP</title><link rel="icon" href="images/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<main>
+<section class="page-title"><h1>Mods</h1><p>Alles wat je nodig hebt om mee te spelen · Minecraft 26.3 · Fabric</p></section>
+<section class="wrap">
+  <div class="installer">
+    <div>
+      <h2>Alle mods in één keer</h2>
+      <p><span id="m-count">17</span> mods · <span id="m-size">124</span> MB · als één zip-bestand</p>
+    </div>
+    <button class="btn big" id="install">⬇ Mods installeren</button>
+  </div>
+  <ol class="steps">
+    <li>Installeer <b>Fabric Loader</b> voor Minecraft 26.3.</li>
+    <li>Pak de gedownloade zip uit.</li>
+    <li>Zet alle <b>.jar</b>-bestanden in je <b>.minecraft/mods</b> map en start Minecraft.</li>
+  </ol>
+  <h2 class="sub">Deze mods zitten erin</h2>
+  <div class="modlist" id="modlist"></div>
+</section>
+</main>
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-live="polite">
+  <div class="dialog">
+    <div class="ring"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="44"/><circle class="fg" id="ringfg" cx="50" cy="50" r="44"/></svg><b id="count">5</b></div>
+    <h3 id="o-title">Je download start zo…</h3>
+    <p id="o-text">Even geduld, over 5 seconden begint het downloaden.</p>
+        <button class="btn ghost small" id="cancel">Annuleren</button>
+  </div>
+</div>
+<script src="data.js"></script><script src="script.js"></script><script src="mods.js"></script><script src="mods-page.js"></script></body></html>
