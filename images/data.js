@@ -1,0 +1,34 @@
+/* ====== HIER PAS JE ALLES AAN ====== */
+
+// Deelnemers (max 15): "Later bekend" = vraagteken. Vervang door een naam als die bekend is.
+// plaatje = images/1.png, 2.png, ... (zelfde volgorde als de lijst)
+const DEELNEMERS = ["Shadow","iicookie","Sybren","peertje","MR kitsune","Gold","Thijs","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend"];
+
+// Dead: plaatje = images/1_dead.png, 2_dead.png, ...
+// Zet hier namen tussen, bijv: ["Shadow","Nikki"]
+const DEAD = [];
+
+// Staff: plaatje = images/1_staff.png, 2_staff.png, ...
+const STAFF = [
+  {naam:"shadow.0164", rang:"Owner"}
+];
+
+// Changelogs seizoen 4 (nieuwste bovenaan)
+const CHANGELOGS = [
+  // Seizoen 4: nog geen updates. Voorbeeld:
+  // {datum:"20-11-2026", tekst:"Tekst van de update"},
+];
+
+// Regels (titel + uitleg). Voeg gerust meer toe.
+const REGELS = [
+  {titel:"Heb respect voor elkaar", tekst:"Behandel iedereen met respect. Houd het gezellig en verpest de speelervaring niet voor anderen."},
+  {titel:"Geen metagaming", tekst:"Metagaming is niet toegestaan. We houden het realistisch en gebruiken geen informatie die je personage normaal gesproken niet zou kunnen weten."},
+  {titel:"Geen communicatie via de chat", tekst:"Gebruik de Minecraft-chat niet om met elkaar te communiceren. Communicatie moet op een realistische manier verlopen, passend bij de situatie."},
+  {titel:"Uitgeschakeld is uitgeschakeld", tekst:"Is iemand uitgeschakeld? Dan is diegene uitgeschakeld. Maak hier geen misbruik van en respecteer deze regel te allen tijde."},
+  {titel:"Niet schelden of beledigen", tekst:"Schelden, beledigen en het persoonlijk aanvallen van andere spelers is niet toegestaan. Houd het respectvol, ook tijdens conflicten."},
+  {titel:"Dood heeft gevolgen", tekst:"Als je personage sterft, mag je niet zomaar terugkeren alsof er niets is gebeurd. Houd je aan de afgesproken regels rondom de dood van je personage."},
+  {titel:"Niet zomaar stelen", tekst:"Respecteer de bezittingen van andere spelers. Items stelen of andermans basis plunderen zonder een geldige, realistische aanleiding is niet toegestaan."},
+  {titel:"PvP moet realistisch blijven", tekst:"Val niet zomaar andere spelers aan zonder aanleiding. Gevechten moeten passen bij de situatie en logisch zijn binnen de wereld. Zoek geen onnodige conflicten op."},
+  {titel:"Respecteer andermans bouwwerken", tekst:"Verniel of verander niet zomaar gebouwen, bases of andere constructies van andere spelers. Schade moet een geldige reden hebben die past binnen de roleplay."},
+  {titel:"Maximaal 3 items of dingen", tekst:"Je mag maximaal 3 items of dingen tegelijk bij je hebben."}
+];
