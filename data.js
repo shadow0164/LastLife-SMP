@@ -2,7 +2,7 @@
 
 // Deelnemers (max 15): "Later bekend" = vraagteken. Vervang door een naam als die bekend is.
 // plaatje = images/1.png, 2.png, ... (zelfde volgorde als de lijst)
-const DEELNEMERS = ["shadow.0164","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend"];
+const DEELNEMERS = ["Shadow","iicookie","Sybren","peertje","MR kitsune","Gold","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend"];
 
 // Dead: plaatje = images/1_dead.png, 2_dead.png, ...
 // Zet hier namen tussen, bijv: ["Shadow","Nikki"]
