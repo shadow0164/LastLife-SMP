@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inschrijven – LastLife HardCore SMP</title><link rel="icon" href="images/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<main>
+<section class="page-title"><h1>Inschrijven</h1><p>Wil je meedoen aan LastLife HardCore SMP? Vul het formulier in.</p></section>
+<section class="wrap">
+<form class="form" id="inschrijf" action="https://formspree.io/f/mnpdpvwk" method="POST">
+  <input type="hidden" name="_subject" value="Nieuwe inschrijving LastLife HardCore SMP">
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+  <label>Naam<input type="text" name="naam" required maxlength="60" autocomplete="name" placeholder="Je Minecraft- of echte naam"></label>
+  <label>Leeftijd<input type="number" name="leeftijd" required min="1" max="99" inputmode="numeric" placeholder="Bijv. 15"></label>
+  <label>Discord naam<input type="text" name="discord" required maxlength="40" placeholder="Bijv. shadow.0164"></label>
+  <label>Waarom wil je meedoen?<textarea name="waarom" required rows="5" maxlength="1500" placeholder="Vertel het ons…"></textarea></label>
+  <label>Hoe heb je ons gevonden?<input type="text" name="gevonden" required maxlength="200" placeholder="Bijv. via een vriend, Discord, TikTok…"></label>
+  <button class="btn" id="verstuur" type="submit">Inschrijven</button>
+  <p class="form-error" id="fout" role="alert"></p>
+</form>
+</section>
+</main>
+<script src="data.js"></script><script src="script.js"></script></body></html>

@@ -159,3 +159,27 @@ footer{margin-top:auto;text-align:center;padding:2rem 1rem;color:var(--muted);bo
 .bar.show{display:block}
 .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blood),var(--ember));transition:width .3s}
 @media(max-width:560px){.mod{flex-wrap:wrap}.dl{margin-left:auto}}
+
+/* INSCHRIJVEN */
+.nav li a.cta{border:2px solid var(--blood);color:var(--bone)}
+.nav li a.cta:hover{background:var(--blood)}
+.form{max-width:620px;margin:0 auto;display:grid;gap:1.2rem;background:var(--panel);border:2px solid var(--line);border-top:6px solid var(--blood);border-radius:8px;padding:2rem 1.6rem;animation:rise .7s both}
+.form label{display:grid;gap:.4rem;font-weight:600}
+.form input,.form textarea{font:inherit;color:var(--bone);background:var(--bg);border:2px solid var(--line);border-radius:6px;padding:.7rem .9rem;transition:border-color .2s,box-shadow .2s;width:100%}
+.form textarea{resize:vertical}
+.form input::placeholder,.form textarea::placeholder{color:#6c5e63}
+.form input:focus,.form textarea:focus{outline:none;border-color:var(--ember);box-shadow:0 0 0 3px rgba(255,138,31,.25)}
+.form .btn{cursor:pointer;color:var(--bone);justify-self:start}
+.form .btn:disabled{opacity:.6;cursor:wait}
+.form-error{color:var(--ember);font-weight:600;min-height:1.2em}
+.done{text-align:center;padding-top:5rem}
+.done h1{font-size:clamp(2rem,6vw,3.4rem);margin:1.2rem 0;animation:rise .7s .5s both}
+.done p{max-width:520px;margin:0 auto 2rem;color:var(--muted);font-size:1.15rem;animation:rise .7s .65s both}
+.done .btns{animation:rise .7s .8s both}
+.check{width:110px;height:110px;display:block;margin:0 auto}
+.check circle{fill:none;stroke:var(--blood);stroke-width:3;stroke-dasharray:145;stroke-dashoffset:145;animation:draw .8s ease forwards}
+.check path{fill:none;stroke:var(--bone);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:40;stroke-dashoffset:40;animation:draw .5s .7s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.later .frame{border-style:dashed;border-color:var(--line);box-shadow:none}
+.later .ph{color:var(--muted);font-size:4rem}
+.later .name{color:var(--muted)}

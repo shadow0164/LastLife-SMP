@@ -1,17 +1,16 @@
 /* ====== HIER PAS JE ALLES AAN ====== */
 
-// Deelnemers: plaatje = images/1.png, 2.png, ... (zelfde volgorde als de lijst)
-const DEELNEMERS = ["Shadow","iicookie","Sybren","Peertje","MR kitsune9","G_kippie13","Gold_Fivem","Nikki","Thijs"];
+// Deelnemers (max 15): "Later bekend" = vraagteken. Vervang door een naam als die bekend is.
+// plaatje = images/1.png, 2.png, ... (zelfde volgorde als de lijst)
+const DEELNEMERS = ["shadow.0164","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend","Later bekend"];
 
 // Dead: plaatje = images/1_dead.png, 2_dead.png, ...
 // Zet hier namen tussen, bijv: ["Shadow","Nikki"]
-const DEAD = ["Thijs","g_kippie13","Peertje","Sybren"];
+const DEAD = [];
 
 // Staff: plaatje = images/1_staff.png, 2_staff.png, ...
 const STAFF = [
-  {naam:"Shadow.0164", rang:"Owner"},
-  {naam:"iicookie", rang:"Owner"},
-  {naam:"Sybren", rang:"Moderator"}
+  {naam:"shadow.0164", rang:"Owner"}
 ];
 
 // Changelogs (nieuwste bovenaan)
