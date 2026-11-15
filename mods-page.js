@@ -1,3 +1,5 @@
+(function(){
+if(!MODS_BESCHIKBAAR){$("mods-live").hidden=true;$("mods-soon").hidden=false;return}
 const totalMB=MODS.reduce((a,m)=>a+m.mb,0);
 $("m-count").textContent=MODS.length;
 $("m-size").textContent=Math.round(totalMB);
@@ -32,3 +34,5 @@ function start(){
 $("install").onclick=open;
 $("cancel").onclick=close;
 addEventListener("keydown",e=>{if(e.key==="Escape"&&ov.classList.contains("show"))close()});
+
+})();

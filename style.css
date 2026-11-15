@@ -183,3 +183,11 @@ footer{margin-top:auto;text-align:center;padding:2rem 1rem;color:var(--muted);bo
 .later .frame{border-style:dashed;border-color:var(--line);box-shadow:none}
 .later .ph{color:var(--muted);font-size:4rem}
 .later .name{color:var(--muted)}
+
+/* SEIZOEN 4: lege changelog + mods binnenkort */
+.log.leeg{padding-left:0}.log.leeg::before{display:none}
+.soon{max-width:520px;margin:0 auto;text-align:center;background:var(--panel);border:2px solid var(--line);border-top:6px solid var(--ember);border-radius:8px;padding:2.4rem 1.6rem;animation:pop .6s both}
+.soon[hidden],#mods-live[hidden]{display:none}
+.soon .lock{font-size:3.2rem;animation:float 3s ease-in-out infinite}
+.soon h2{font-size:1.5rem;margin:.6rem 0}
+.soon p{color:var(--muted);margin-bottom:1.5rem}

@@ -13,13 +13,10 @@ const STAFF = [
   {naam:"shadow.0164", rang:"Owner"}
 ];
 
-// Changelogs (nieuwste bovenaan)
+// Changelogs seizoen 4 (nieuwste bovenaan)
 const CHANGELOGS = [
-  {datum:"12-11-2026", tekst:"Biome The Sift geüpdate"},
-  {datum:"11-11-2026", tekst:"Nieuwe Biome: The Sift"},
-  {datum:"4-11-2026",  tekst:"Nieuwe en leukere dieren."},
-  {datum:"3-11-2026",  tekst:"Objecten, mensen en dieren oppakken."},
-  {datum:"3-11-2026",  tekst:"Custom music discs"}
+  // Seizoen 4: nog geen updates. Voorbeeld:
+  // {datum:"20-11-2026", tekst:"Tekst van de update"},
 ];
 
 // Regels (titel + uitleg). Voeg gerust meer toe.
