@@ -22,13 +22,13 @@ const CHANGELOGS = [
 // Regels (titel + uitleg). Voeg gerust meer toe.
 const REGELS = [
   {titel:"Heb respect voor elkaar", tekst:"Behandel iedereen met respect. Houd het gezellig en verpest de speelervaring niet voor anderen."},
-  {titel:"Geen metagaming", tekst:"Metagaming is niet toegestaan. We houden het realistisch en gebruiken geen informatie die je personage normaal gesproken niet zou kunnen weten."},
-  {titel:"Geen communicatie via de chat", tekst:"Gebruik de Minecraft-chat niet om met elkaar te communiceren. Communicatie moet op een realistische manier verlopen, passend bij de situatie."},
-  {titel:"Uitgeschakeld is uitgeschakeld", tekst:"Is iemand uitgeschakeld? Dan is diegene uitgeschakeld. Maak hier geen misbruik van en respecteer deze regel te allen tijde."},
-  {titel:"Niet schelden of beledigen", tekst:"Schelden, beledigen en het persoonlijk aanvallen van andere spelers is niet toegestaan. Houd het respectvol, ook tijdens conflicten."},
-  {titel:"Dood heeft gevolgen", tekst:"Als je personage sterft, mag je niet zomaar terugkeren alsof er niets is gebeurd. Houd je aan de afgesproken regels rondom de dood van je personage."},
-  {titel:"Niet zomaar stelen", tekst:"Respecteer de bezittingen van andere spelers. Items stelen of andermans basis plunderen zonder een geldige, realistische aanleiding is niet toegestaan."},
-  {titel:"PvP moet realistisch blijven", tekst:"Val niet zomaar andere spelers aan zonder aanleiding. Gevechten moeten passen bij de situatie en logisch zijn binnen de wereld. Zoek geen onnodige conflicten op."},
-  {titel:"Respecteer andermans bouwwerken", tekst:"Verniel of verander niet zomaar gebouwen, bases of andere constructies van andere spelers. Schade moet een geldige reden hebben die past binnen de roleplay."},
-  {titel:"Maximaal 3 items of dingen", tekst:"Je mag maximaal 3 items of dingen tegelijk bij je hebben."}
+  {titel:"Geen toxic gedrag", tekst:"Wees niet toxic naar andere spelers. Flamen, aanvallen op de persoon en expres irritant doen hoort hier niet bij."},
+  {titel:"Houd het leuk voor iedereen", tekst:"De server is er voor iedereen om plezier te hebben. Zorg dat jouw gedrag de ervaring voor anderen niet verpest."},
+  {titel:"Mace is niet toegestaan", tekst:"Het gebruik van de Mace is verboden op de server."},
+  {titel:"Luister naar de staff leden", tekst:"Instructies van staff moet je opvolgen. Ben je het ergens niet mee eens, bespreek dit dan rustig in de Discord in plaats van het te negeren."},
+  {titel:"Ga geen discussies opzoeken", tekst:"Zoek geen ruzie of discussies op met andere spelers. Loop een conflict liever rustig uit of schakel staff in."},
+  {titel:"Maximaal 3 totems in je bezit hebben", tekst:"Je mag maximaal 3 totems of vergelijkbare items tegelijk bij je hebben."},
+  {titel:"Geen cheats of exploits", tekst:"Hacks, cheat clients en het misbruiken van bugs zijn niet toegestaan."},
+  {titel:"Eén account per speler", tekst:"Speel met je eigen, enige account. Alts gebruiken om een voordeel te krijgen is niet toegestaan."},
+  {titel:"Volg de serverregels van Minecraft/Mojang", tekst:"Naast onze eigen regels gelden ook de algemene regels van Minecraft zelf."}
 ];
