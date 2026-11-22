@@ -1,13 +1,29 @@
-<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mods – LastLife HardCore SMP</title><link rel="icon" href="images/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><style>.soon{max-width:520px;margin:0 auto;text-align:center;background:var(--panel);border:2px solid var(--line);border-top:6px solid var(--ember);border-radius:8px;padding:2.4rem 1.6rem;animation:pop .6s both}.soon .lock{font-size:3.2rem;animation:float 3s ease-in-out infinite}.soon h2{font-size:1.5rem;margin:.6rem 0}.soon p{color:var(--muted);margin-bottom:1.5rem}</style></head><body>
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mods – LastLife HardCore SMP</title><link rel="icon" href="images/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
 <main>
-<section class="page-title"><h1>Mods</h1><p>De mods voor seizoen 4</p></section>
+<section class="page-title"><h1>Mods</h1><p>Alles wat je nodig hebt om mee te spelen · Seizoen 3 · Minecraft 26.3 · Fabric</p></section>
 <section class="wrap">
-  <div class="soon">
-    <div class="lock">🔒</div>
-    <h2>Later bekend</h2>
-    <p>De mods voor seizoen 4 worden later bekendgemaakt. Houd de Discord in de gaten!</p>
-    <a class="btn ghost" href="https://discord.gg/qHJDhk7SPQ" target="_blank" rel="noopener">Naar de Discord</a>
+  <div class="installer">
+    <div>
+      <h2>Alle mods in één keer</h2>
+      <p><span id="m-count">5</span> mods · <span id="m-size">11</span> MB · als één zip-bestand</p>
+    </div>
+    <button class="btn big" id="install">⬇ Mods installeren</button>
   </div>
+  <ol class="steps">
+    <li>Installeer <b>Fabric Loader</b> voor Minecraft 26.3.</li>
+    <li>Pak de gedownloade zip uit.</li>
+    <li>Zet alle <b>.jar</b>-bestanden in je <b>.minecraft/mods</b> map en start Minecraft.</li>
+  </ol>
+  <h2 class="sub">Deze mods zitten erin</h2>
+  <div class="modlist" id="modlist"></div>
 </section>
 </main>
-<script src="data.js"></script><script src="script.js"></script></body></html>
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-live="polite">
+  <div class="dialog">
+    <div class="ring"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="44"/><circle class="fg" id="ringfg" cx="50" cy="50" r="44"/></svg><b id="count">5</b></div>
+    <h3 id="o-title">Je download start zo…</h3>
+    <p id="o-text">Even geduld, over 5 seconden begint het downloaden.</p>
+        <button class="btn ghost small" id="cancel">Annuleren</button>
+  </div>
+</div>
+<script src="data.js"></script><script src="script.js"></script><script src="mods.js"></script><script src="mods-page.js"></script></body></html>
